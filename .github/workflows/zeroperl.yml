@@ -179,8 +179,8 @@ jobs:
         shell: bash
         run: |
           export PATH="$PWD/native/prefix/bin:$PATH"
-          curl -L https://www.exiftool.org/Image-ExifTool-13.30.tar.gz | tar -xzf -
-          cd Image-ExifTool-13.30
+          curl -L https://www.exiftool.org/Image-ExifTool-13.36.tar.gz | tar -xzf -
+          cd Image-ExifTool-13.36
           perl Makefile.PL
           make
           make test
